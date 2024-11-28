@@ -70,5 +70,3 @@ else:
     print(f"Reprobado con nota: {nota} estuia mas")
 
 print("___________________________________")
-
-
