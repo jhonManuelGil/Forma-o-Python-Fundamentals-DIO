@@ -49,7 +49,7 @@ Debe calcular a tabla desde do 0 esta o 12
 #     print(tabla_calcular(n, i), "\n")
 
 """ 
-8 x 0 = 0
+8 x 0 = 0  
 8 x 1 = 8
 8 x 2 = 16
 8 x 3 = 24
@@ -65,9 +65,22 @@ Debe calcular a tabla desde do 0 esta o 12
 
 """
 
-print("============= 5 ================= \n")
+# print("============= 5 ================= \n")
+"""
+   programa que calcula el nuevo salario de un trabajador si abtuvo un nuevo ingremento. 
+"""
+
+def calcular_incremento(salario, x):
+ nuevo_salario = salario + (salario * (x/100))
+ return nuevo_salario
 
 
-# print("============= 3 ================= \n")
-# print("============= 3 ================= \n")
-# print("============= 3 ================= \n")
+salario_actual= float(input("Ingrase el salario actual del tratabador: "))
+incremento = float(input("Ingrese el porcentaje de incremento que tendra el salario del trabajador: "))
+
+nuevo_salario = calcular_incremento(salario_actual, incremento)
+
+print(f"El nuevo salario del trabajadoir es: {nuevo_salario}")
+
+print("============= 6 ================= \n")
+
