@@ -13,61 +13,61 @@ Podemos criar tuplas atrvés da classe TUPLE, ou colocando valores separados por
 
 # pais = ("brasil", "rusia",)
 
-frutas = ("maça", "laranja", "uva", "pera",)
+# frutas = ("maça", "laranja", "uva", "pera",)
 
-print(frutas[1]) #laranja
-print(frutas[2])#uva
+# print(frutas[1]) #laranja
+# print(frutas[2])#uva
 
 #numero negativo
 
-print(frutas[-1]) #uva
-print(frutas[-2]) #laranja
+# print(frutas[-1]) #uva
+# print(frutas[-2]) #laranja
 
 
-print("================= \n")
+# print("================= \n")
 
-matriz = (
-    (1, "a", 3),
-    ("g", 5, 6),
-    (7, 8, "i")
-)
+# matriz = (
+#     (1, "a", 3),
+#     ("g", 5, 6),
+#     (7, 8, "i")
+# )
 
-print(matriz[0]) #(1, 'a', 3)
-print("")
-print(matriz[0][0]) # 1
-print("")
-print(matriz[0][-1]) # 3
-print("")
-print(matriz[-1][-1]) # i
+# print(matriz[0]) #(1, 'a', 3)
+# print("")
+# print(matriz[0][0]) # 1
+# print("")
+# print(matriz[0][-1]) # 3
+# print("")
+# print(matriz[-1][-1]) # i
 
-print("================= \n")
-tupla = ("p", "y", "t", "h", "h", "o", "n",)
-
-
-print(tupla[2:]) #('t', 'h', 'h', 'o', 'n')
-print(tupla[:2]) #('p', 'y')
-print(tupla[1:3]) #('y', 't')
-print(tupla[0:3:1]) #('p', 'y', 't')
-print(tupla[::]) #('p', 'y', 't', 'h', 'h', 'o', 'n')
-print(tupla[:: -1]) #('n', 'o', 'h', 'h', 't', 'y', 'p')
+# print("================= \n")
+# tupla = ("p", "y", "t", "h", "h", "o", "n",)
 
 
-print("================= \n")
-
-carros = ("gol", "celta", "chery")
-
-
-for indice, carros in enumerate(carros):
-  print(f"{indice}: {carros}")
-"""
-0: gol
-1: celta
-2: chery
-"""
-print("================= \n")
-carros = ("gol", "celta", "chery")
-
-print(len(carros))
+# print(tupla[2:]) #('t', 'h', 'h', 'o', 'n')
+# print(tupla[:2]) #('p', 'y')
+# print(tupla[1:3]) #('y', 't')
+# print(tupla[0:3:1]) #('p', 'y', 't')
+# print(tupla[::]) #('p', 'y', 't', 'h', 'h', 'o', 'n')
+# print(tupla[:: -1]) #('n', 'o', 'h', 'h', 't', 'y', 'p')
 
 
-print("================= \n")
+# print("================= \n")
+
+# carros = ("gol", "celta", "chery")
+
+
+# for indice, carros in enumerate(carros):
+#   print(f"{indice}: {carros}")
+# """
+# 0: gol
+# 1: celta
+# 2: chery
+# """
+# print("================= \n")
+# carros = ("gol", "celta", "chery")
+
+# print(len(carros))
+
+
+# print("================= \n")
